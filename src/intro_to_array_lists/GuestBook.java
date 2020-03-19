@@ -43,7 +43,7 @@ public class GuestBook implements ActionListener{
 		JOptionPane.showMessageDialog(null, guestList);
 	}
 	}
-	
+	//
 
 	
 	// When the add name button is clicked, display an input dialog that asks the user to enter a name. Add
