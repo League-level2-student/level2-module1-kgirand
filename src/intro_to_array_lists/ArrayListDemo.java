@@ -49,5 +49,25 @@ public class ArrayListDemo {
 			System.out.println(j);
 		}
 		System.out.println("\n");
+		Object[] drums = {"drums1"};
+		drums[0] = new Object();
+		System.out.println(drums.length);
+		float item = 3.5f;
+		float itemm = 3.6f;
+		if(item==itemm) {
+			ArrayList<String> guests = new ArrayList<String>();
+			guests.add("hi");
+		}
+		int[] nums = {1, 2, 3, 4, 5, 6};
+		for(int i = 0; i < nums.length; i += 2){
+		             System.out.println(nums[i]);
+		            
+		}
+		int x = 52;
+		int y = 25;
+		int r = x; 
+		x = y;
+		y = r;
+		System.out.println(x);
 	}
 }
