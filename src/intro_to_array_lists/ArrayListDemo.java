@@ -69,5 +69,15 @@ public class ArrayListDemo {
 		x = y;
 		y = r;
 		System.out.println(x);
+		int[] ints = {8,9,10};
+		ints[1] = 8;
+		
+		abstract class Liquid {} 
+		class Water extends Liquid {}
+		 public class SoftDrink extends Liquid, Water{
+		             public void main(String[] args){ 
+		                     Water mizu = new Water(); 
+		              } 
+		}
 	}
 }
